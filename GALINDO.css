@@ -1,7 +1,5 @@
-/* YOUR NAME GOES HERE */
-
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
-
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
 html,
 body,
 div,
@@ -131,6 +129,8 @@ table {
     border-spacing: 0;
 }
 
+/* --------------- END CSS RESET --------------- */
+
 
 /* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
 /* ---------- VARIABLES ---------- */
@@ -155,8 +155,6 @@ table {
     line-height: 1.35;
 }
 
-
-
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 @media (prefers-color-scheme: dark) {
@@ -166,9 +164,6 @@ table {
 }
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-
-
-
 
 /* ----- HEADINGS ----- */
 h1,
@@ -197,7 +192,6 @@ img {
 }
 
 /* ----- ANIMATED ICON ----- */
-/* Icon and animation code from https://typogram.github.io/Anicons/ */
 .icon {
     font-family: "Anicons Regular";
     font-size: 2em;
@@ -232,10 +226,7 @@ footer .icon {
     }
 }
 
-
-
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
-/* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
 /* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
 @media (prefers-reduced-motion: reduce) {
     .icon {
@@ -245,11 +236,6 @@ footer .icon {
 }
 
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
-
-
-/* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
-
-
 
 /* ----- TEXT ----- */
 p,
@@ -302,7 +288,6 @@ img {
     float: left;
 }
 
-
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
 @media (min-width: 620px) {
@@ -341,9 +326,6 @@ img {
 
 /* --------------- END SMALL SCREEN SIZES --------------- */
 
-
-
-
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
 @media (min-width: 920px) {
@@ -378,8 +360,6 @@ img {
 }
 
 /* --------------- END MEDIUM SCREEN SIZES --------------- */
-
-
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
@@ -426,9 +406,6 @@ img {
 
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
-
-
-
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
 @media (min-width: 1600px) {
@@ -439,9 +416,6 @@ img {
 }
 
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
-
-
-
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
